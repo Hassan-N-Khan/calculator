@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    gap: 5px;
+}
+
+.row{ 
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+button{
+    flex: 1;
+    font-size: large;
+    padding: 5px 15px;
+    border-radius: 5px;
+    flex-grow: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 15px;
+}
+.zero{
+    flex-grow: 2;
+    flex-shrink: 2;
+    align-self: center;
+    padding-left: 34.5px;
+    padding-right: 34.5px;
+}
